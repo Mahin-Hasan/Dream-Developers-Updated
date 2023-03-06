@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+.fixed-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.nav-background {
+    background-color: #111111;
+    height: 108px;
+}
+.container-height {
+    height: 108px;
+
+}
+.float-left{
+    float: left;
+}
+.float-clear{
+    content: "";
+    clear: both;
+    display: table;
+}
+.nav-logo{
+    margin-top: 19px;
+    width: 75px;
+    height: 70px;
+}
+.move-left{
+    margin-left: -45px;
+    font-weight: 700;
+}
+.set-font-size{
+    font-size: 23px;
+    color: white;
+    letter-spacing: -1px;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar-options {
+    width: 718px;
+    height: 108px;
+    position: relative;
+
+}
+.link-style{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 75px;
+
+}
+.link-style a {
+    display: inline-block;
+    width: 126px;
+    height: 54px;
+    text-align: center;
+    /* color: floralwhite; */
+    color: #8f8f8f;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.link-style a:hover {
+    background-color: rgb(241, 99, 66);
+    color: white;
+    transition: 0.5s;
+}
+.call-icon{
+    display: inline-block;
+    background-image: url(picture/tel-no.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 33px;
+    background-size: 15px;
+    padding-top: -6px;
+    position: relative;
+    top: 15px;
+}
+.phone-number {
+    text-align: center;
+    background-color: #36ced0;
+    width: 245px;
+    height: 54px;
+    position: absolute;
+    right: 0px;
+    top: 54px;
+}
+.phone-number a{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    padding-top: 19px;
+
+}
