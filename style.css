@@ -51,7 +51,7 @@ body::-webkit-scrollbar {
 
 .set-font-size {
     font-size: 23px;
-    color: white;
+    color: #ffffff;
     letter-spacing: -1px;
     text-transform: uppercase;
 }
@@ -92,7 +92,7 @@ a {
 
 .link-style a:hover {
     background-color: rgb(241, 99, 66);
-    color: white;
+    color: #ffffff;
     transition: 0.5s;
 }
 
@@ -119,7 +119,7 @@ a {
     background-position-x: 20px;
     background-position-y: 14px;
     font-weight: bold;
-    color: white;
+    color: #ffffff;
     font-size: 17px;
     background-color: #36ced0;
     padding: 19px 15px 16px 38px;
@@ -278,7 +278,6 @@ a {
     background-position-y: 6px;
     height: 33px;
     width: 27px;
-    /* clear: both; */
     margin-right: 10px;
 
 }
@@ -292,7 +291,6 @@ a {
     background-position-y: 10px;
     height: 33px;
     width: 27px;
-    /* clear: both; */
     margin-right: 10px;
 
 }
@@ -331,14 +329,8 @@ a {
 .card {
     float: left;
     width: 25%;
-    /* max-height: 377px; */
-    /* background-color: #8f8f8f; */
     padding: 0 5px;
     position: relative;
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* margin-top: -48px; */
-    /* margin-right: 10px; */
     overflow: hidden;
 
 }
@@ -350,8 +342,6 @@ a {
 .card-description {
     position: absolute;
     text-align: center;
-    /* height: 85px; */
-    /* padding-top: 14px; */
     background-color: #f8f8f8c7;
     width: 100%;
 }
@@ -378,7 +368,6 @@ a {
 
 .card-arrow {
     position: absolute;
-    /* background-color: beige; */
     width: 20px;
     height: 21px;
     top: 71px;
@@ -392,20 +381,13 @@ a {
     width: 85px;
     height: 85px;
     background-color: #FFFFFF;
-    /* margin: 0 auto; */
     border-radius: 50px;
-    /* margin-top: 0px; */
-    /* padding-left: 30px; */
     position: absolute;
     left: 106px;
     top: 153px;
 }
 
 .search-icon i {
-    /* background-color: white;
-    font-size: 86px;
-    color: #39cdd4;
-    border-radius: 50px; */
     font-size: 63px;
     padding: 9px 0 0 0px;
     color: #36ced0;
@@ -442,61 +424,6 @@ a {
 .card:hover .card-description {
     display: none;
 }
-
-/* old */
-/* img.card-hover {
-    height: auto;
-    width: 100%;
-    opacity: .8;
-    display: none;
-}
-
-.card:hover img.card-hover {
-    display: block;
-}
-
-.card:hover .text-bg {
-    display: none;
-}
-
-.one {
-    background-image: url(picture/building1.png);
-}
-
-.two {
-    background-image: url(picture/building2.png);
-}
-
-.three {
-    background-image: url(picture/building3.png);
-}
-
-.four {
-    background-image: url(picture/building4.png);
-} */
-/* 
-.text-bg {
-    background-image: url(picture/text-backgorund.png);
-    opacity: .8;
-    text-align: center;
-    height: 85px;
-    padding-top: 14px;
-    background-repeat: no-repeat;
-    background-size: 288px;
-}
-
-.text-bg h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: uppercase;
-
-}
-
-.text-bg p {
-    margin-top: 0;
-    font-style: italic;
-} */
 
 /* About Us */
 .about-us-bottom-margin {
@@ -561,6 +488,7 @@ a {
 .about-us-right span {
     color: #38cdcc;
     font-size: large;
+    cursor: pointer;
 }
 
 .about-us-arrow {
@@ -656,6 +584,7 @@ a {
 
 .footer-quicklink a {
     text-transform: capitalize;
+    display: inline-block;
 }
 
 .footer-quicklink a:hover {
@@ -699,6 +628,7 @@ a {
 
 .footer-contact-details a {
     color: #8f8f8f;
+    display: inline-block;
 }
 
 .footer-subscribe {
