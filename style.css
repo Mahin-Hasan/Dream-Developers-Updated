@@ -96,19 +96,28 @@ a {
     transition: 0.5s;
 }
 
-.phone-number {
+.header-contact {
     position: absolute;
     bottom: 0;
     right: 0;
 }
 
-.phone-number a {
+.header-contact ul {
+    padding: 0;
+    margin: 0;
+}
+
+.header-contact li {
+    list-style-type: none;
+}
+
+.header-contact a {
+    display: inline-block;
     background-image: url(picture/tel-no.png);
     background-repeat: no-repeat;
     background-size: 16px;
     background-position-x: 20px;
     background-position-y: 14px;
-    display: inline-block;
     font-weight: bold;
     color: white;
     font-size: 17px;
@@ -156,7 +165,7 @@ a {
     margin-right: 53px;
 }
 
-/* Inner Content */
+/* Our Details */
 .text-align-center {
     text-align: center;
 }
@@ -201,7 +210,7 @@ a {
     background-position-x: 25px;
     background-position-y: 18px;
     color: #FFFFFF;
-    /* text-align: start; */
+    text-transform: uppercase;
     background-color: #111111;
     width: 199px;
     margin-bottom: 1px;
@@ -249,6 +258,7 @@ a {
 
 .project-style h3 {
     display: inline;
+    text-transform: uppercase;
 }
 
 .project-style a {
@@ -667,14 +677,28 @@ a {
     top: 44px;
 }
 
-.footer-address-bold-title{
-    font-weight: 600 ;
+.footer-address-bold-title {
+    font-weight: 600;
 
 }
+
 .footer-address div {
     margin-bottom: 13px;
     color: #FFFFFF;
     text-transform: capitalize;
+}
+
+.footer-contact-details ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer-contact-details li {
+    list-style-type: none;
+}
+
+.footer-contact-details a {
+    color: #8f8f8f;
 }
 
 .footer-subscribe {
@@ -712,6 +736,21 @@ a {
     background-color: aquamarine;
     width: 32px;
     height: 32px;
+}
+
+.socials ul {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.socials li {
+    list-style-type: none;
+    display: inline;
+}
+
+.socials a {
+    display: inline-block;
 }
 
 .facebook {
