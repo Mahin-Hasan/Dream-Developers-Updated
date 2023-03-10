@@ -162,7 +162,8 @@ a {
 }
 
 .set-padding {
-    padding: 0px 97px 0px;
+    padding: 0px 25px 0px;
+    font-size: 18px;
 }
 
 .adjust-heading {
@@ -240,7 +241,7 @@ a {
 }
 
 .project-style {
-    border-bottom: 1px solid #b3b3b3;
+    border-bottom: 1px solid #8f8f8f;
     display: inline;
     padding-bottom: 11px;
 
@@ -287,7 +288,7 @@ a {
 }
 
 .hover-commercial {
-    border-left: 1px solid #b3b3b3;
+    border-left: 1px solid #8f8f8f;
 }
 
 .hover-residential:hover .residential {
@@ -547,7 +548,7 @@ a {
 
 }
 
-.about-us-right small {
+.about-us-right span {
     color: #38cdcc;
     font-size: large;
 }
@@ -683,7 +684,7 @@ a {
 }
 
 .footer-subscribe input {
-    padding: 12px;
+    padding: 12px 85px 12px 12px;
     margin-bottom: 9px;
     border: none;
 }
@@ -715,45 +716,55 @@ a {
 
 .facebook {
     background: url(picture/facebook-icon.png)no-repeat;
+    background-position-x: -32px;
+
 }
 
 .facebook:hover {
-    background-position-x: -32px;
+    background-position-x: 0px;
     transition: 0.5s;
 }
 
 .twitter {
     background: url(picture/twitter-icon.png)no-repeat;
+    background-position-x: -32px;
+
 }
 
 .twitter:hover {
-    background-position-x: -32px;
+    background-position-x: 0px;
     transition: 0.5s;
 }
 
 .linkedin {
     background: url(picture/linked-in-icon.png)no-repeat;
+    background-position-x: -32px;
+
 }
 
 .linkedin:hover {
-    background-position-x: -32px;
+    background-position-x: 0px;
     transition: 0.5s;
 }
 
 .email {
     background: url(picture/mail-icon.png)no-repeat;
+    background-position-x: -32px;
+
 }
 
 .email:hover {
-    background-position-x: -32px;
+    background-position-x: 0px;
     transition: 0.5s;
 }
 
 .edit {
     background: url(picture/edit-icon.png)no-repeat;
+    background-position-x: -32px;
+
 }
 
 .edit:hover {
-    background-position-x: -32px;
+    background-position-x: 0px;
     transition: 0.5s;
 }
