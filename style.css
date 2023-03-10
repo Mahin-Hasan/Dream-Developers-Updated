@@ -56,9 +56,10 @@ body::-webkit-scrollbar {
     text-transform: uppercase;
 }
 
-.set-text-color {
+.set-text-grey {
     color: #8f8f8f !important;
 }
+
 
 a {
     text-decoration: none;
@@ -313,6 +314,7 @@ a {
 /* four cards */
 .cards-bottom-margin {
     margin-bottom: 80px;
+
 }
 
 .card {
@@ -329,7 +331,8 @@ a {
     overflow: hidden;
 
 }
-.neg-margin{
+
+.neg-margin {
     margin: 0 -5px;
 }
 
@@ -348,6 +351,7 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: uppercase;
 }
+
 .card-description div {
     margin-top: 14px;
     margin-bottom: 9px;
@@ -360,7 +364,8 @@ a {
     min-height: 384px;
     width: 100%;
 }
-.card-arrow{
+
+.card-arrow {
     position: absolute;
     /* background-color: beige; */
     width: 20px;
@@ -371,7 +376,8 @@ a {
     background-image: url(picture/card-arrow.png);
     background-size: 20px;
 }
-.search-icon{
+
+.search-icon {
     width: 85px;
     height: 85px;
     background-color: #FFFFFF;
@@ -383,7 +389,8 @@ a {
     left: 106px;
     top: 153px;
 }
-.search-icon i{
+
+.search-icon i {
     /* background-color: white;
     font-size: 86px;
     color: #39cdd4;
@@ -392,13 +399,15 @@ a {
     padding: 9px 0 0 0px;
     color: #36ced0;
 }
-.explore-hover{
+
+.explore-hover {
     background-color: #36ced0;
     text-align: center;
     min-height: 384px;
     position: relative;
 }
-.explore{
+
+.explore {
     position: relative;
     top: 252px;
     left: 2px;
@@ -407,18 +416,22 @@ a {
     color: #ffffff;
     font-size: 20px;
 }
-.explore-hover{
+
+.explore-hover {
     display: none;
 }
-.card:hover .explore-hover{
+
+.card:hover .explore-hover {
     display: block;
     top: -388px;
     opacity: 0.8;
     margin-bottom: -388px;
 }
-.card:hover .card-description{
+
+.card:hover .card-description {
     display: none;
 }
+
 /* old */
 /* img.card-hover {
     height: auto;
@@ -523,6 +536,7 @@ a {
 
 .bottom-description {
     font-size: 17px;
+    display: inline-block;
 }
 
 .small-text {
@@ -547,26 +561,199 @@ a {
 
 /* footer */
 .footer-background {
-    /* background-image: url(picture/footer-image.png); */
-    background-color: #b3b3b3;
+    background-image: url(picture/footer-image.png);
+    /* background-color: #b3b3b3; */
+    min-height: 354px;
+
+}
+
+.footer-background h3 {
+    text-transform: capitalize;
+    margin: 51px 0px 42px 0px;
+    color: #FFFFFF;
+
 }
 
 .footer-testimonial {
     float: left;
-    width: 25%;
+    width: 30%;
+    padding-right: 41px;
+    position: relative;
+}
+
+.testimonial-author {
+    padding: 10px 0px;
+    color: #FFFFFF;
+
+}
+
+.footer-line {
+    position: relative;
+    bottom: 3px;
+    width: 231px;
+    left: -44px;
+}
+
+.arrow-sprite {
+    position: absolute;
+    right: 46px;
+    top: 278px;
+}
+
+.arrow-sprite .left {
+    background: url(picture/left-right.jpg)no-repeat;
+    /* background-position-y: -1px; */
+    background-position-y: -1px;
+    background-position-x: -2px;
+}
+
+.arrow-sprite .right {
+    background: url(picture/left-right.jpg)no-repeat;
+    /* background-position-y: -1px; */
+    background-position-x: -32px;
+}
+
+.arrow-sprite div {
+    display: inline-block;
+    width: 22px;
+    background-color: antiquewhite;
+    height: 22px;
+    border-radius: 50px;
 }
 
 .footer-quicklink {
     float: left;
-    width: 25%;
+    width: 20%;
+    position: relative;
 }
+
+.footer-quicklink img {
+    position: absolute;
+    right: 97px;
+    top: 44px;
+}
+
+.footer-quicklink ul {
+    margin: 0;
+    padding: 0 0 0 12px;
+}
+
+.footer-quicklink li {
+    list-style-image: url('picture/a.png');
+    margin: 0 0 11px 0;
+}
+
+.footer-quicklink a {
+    text-transform: capitalize;
+}
+
+.footer-quicklink a:hover {
+    color: #FFFFFF !important;
+    transition: 0.5s;
+
+}
+
 
 .footer-address {
     float: left;
-    width: 25%;
+    width: 20%;
+    position: relative;
+}
+
+.footer-address img {
+    position: absolute;
+    right: 97px;
+    top: 44px;
+}
+
+.footer-address-bold-title{
+    font-weight: 600 ;
+
+}
+.footer-address div {
+    margin-bottom: 13px;
+    color: #FFFFFF;
+    text-transform: capitalize;
 }
 
 .footer-subscribe {
     float: left;
-    width: 25%;
+    width: 30%;
+    padding-left: 70px;
+}
+
+.footer-subscribe input {
+    padding: 12px;
+    margin-bottom: 9px;
+    border: none;
+}
+
+.footer-subscribe button {
+    background-color: #38cdcc;
+    padding: 8px 10px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.footer-subscribe h4 {
+    margin: 34px 0 8px 0;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: #ffffff;
+
+}
+
+.socials div {
+    display: inline-block;
+    background-color: aquamarine;
+    width: 32px;
+    height: 32px;
+}
+
+.facebook {
+    background: url(picture/facebook-icon.png)no-repeat;
+}
+
+.facebook:hover {
+    background-position-x: -32px;
+    transition: 0.5s;
+}
+
+.twitter {
+    background: url(picture/twitter-icon.png)no-repeat;
+}
+
+.twitter:hover {
+    background-position-x: -32px;
+    transition: 0.5s;
+}
+
+.linkedin {
+    background: url(picture/linked-in-icon.png)no-repeat;
+}
+
+.linkedin:hover {
+    background-position-x: -32px;
+    transition: 0.5s;
+}
+
+.email {
+    background: url(picture/mail-icon.png)no-repeat;
+}
+
+.email:hover {
+    background-position-x: -32px;
+    transition: 0.5s;
+}
+
+.edit {
+    background: url(picture/edit-icon.png)no-repeat;
+}
+
+.edit:hover {
+    background-position-x: -32px;
+    transition: 0.5s;
 }
