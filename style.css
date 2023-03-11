@@ -60,7 +60,6 @@ body::-webkit-scrollbar {
     color: #8f8f8f !important;
 }
 
-
 a {
     text-decoration: none;
 }
@@ -113,8 +112,7 @@ a {
 
 .header-contact a {
     display: inline-block;
-    background-image: url(picture/tel-no.png);
-    background-repeat: no-repeat;
+    background: url(picture/tel-no.png)no-repeat;
     background-size: 16px;
     background-position-x: 20px;
     background-position-y: 14px;
@@ -127,11 +125,9 @@ a {
 
 /* banner start */
 .banner-background {
-    background-image: url(picture/background.jpg);
+    background: url(picture/background.jpg)no-repeat;
     background-size: cover;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 505px;
+    min-height: 505px;
     margin-bottom: 135px;
 }
 
@@ -204,8 +200,7 @@ a {
 
 .right-navbar a {
     display: block;
-    background-image: url(picture/side-menu-list-style.png);
-    background-repeat: no-repeat;
+    background: url(picture/side-menu-list-style.png)no-repeat;
     background-size: 5px;
     background-position-x: 25px;
     background-position-y: 18px;
@@ -238,7 +233,6 @@ a {
 
 .featured-project-ul {
     display: inline;
-    list-style-type: none;
     margin: 0;
     padding: 0;
 }
@@ -246,7 +240,7 @@ a {
 .featured-project-ul li {
     display: inline;
     padding-left: 26px;
-
+    list-style-type: none;
 }
 
 .project-style {
@@ -271,8 +265,7 @@ a {
 
 .residential {
     display: inline-block;
-    background-image: url(picture/residential.png);
-    background-repeat: no-repeat;
+    background: url(picture/residential.png)no-repeat;
     background-size: 55px;
     background-position-x: 0px;
     background-position-y: 6px;
@@ -284,8 +277,7 @@ a {
 
 .commercial {
     display: inline-block;
-    background-image: url(picture/commercial.png);
-    background-repeat: no-repeat;
+    background: url(picture/commercial.png)no-repeat;
     background-size: 55px;
     background-position-x: -28px;
     background-position-y: 10px;
@@ -343,7 +335,7 @@ a {
     position: absolute;
     text-align: center;
     background-color: #f8f8f8c7;
-    width: 100%;
+    width: 97%;
 }
 
 .card-description h2 {
@@ -367,14 +359,13 @@ a {
 }
 
 .card-arrow {
-    position: absolute;
+    background: url(picture/card-arrow.png)no-repeat;
+    background-size: 20px;
     width: 20px;
     height: 21px;
+    position: absolute;
     top: 71px;
     left: 24px;
-    background-repeat: no-repeat;
-    background-image: url(picture/card-arrow.png);
-    background-size: 20px;
 }
 
 .search-icon {
@@ -397,7 +388,9 @@ a {
     background-color: #36ced0;
     text-align: center;
     min-height: 384px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    width: 97%;
 }
 
 .explore {
@@ -416,9 +409,7 @@ a {
 
 .card:hover .explore-hover {
     display: block;
-    top: -388px;
     opacity: 0.8;
-    margin-bottom: -388px;
 }
 
 .card:hover .card-description {
@@ -469,7 +460,6 @@ a {
 .top-description-font-size {
     font-size: 31px;
     margin-left: 24px;
-
 }
 
 .bottom-description {
@@ -482,7 +472,6 @@ a {
     color: #38cdcc;
     font-size: 20px;
     margin-left: 24px;
-
 }
 
 .about-us-right span {
@@ -500,17 +489,14 @@ a {
 
 /* footer */
 .footer-background {
-    background-image: url(picture/footer-image.png);
-    /* background-color: #b3b3b3; */
+    background: url(picture/footer-image.png);
     min-height: 354px;
-
 }
 
 .footer-background h3 {
     text-transform: capitalize;
     margin: 51px 0px 42px 0px;
     color: #FFFFFF;
-
 }
 
 .footer-testimonial {
@@ -523,7 +509,6 @@ a {
 .testimonial-author {
     padding: 10px 0px;
     color: #FFFFFF;
-
 }
 
 .footer-line {
@@ -541,14 +526,12 @@ a {
 
 .arrow-sprite .left {
     background: url(picture/left-right.jpg)no-repeat;
-    /* background-position-y: -1px; */
     background-position-y: -1px;
     background-position-x: -2px;
 }
 
 .arrow-sprite .right {
     background: url(picture/left-right.jpg)no-repeat;
-    /* background-position-y: -1px; */
     background-position-x: -32px;
 }
 
@@ -737,3 +720,4 @@ a {
     background-position-x: 0px;
     transition: 0.5s;
 }
+
