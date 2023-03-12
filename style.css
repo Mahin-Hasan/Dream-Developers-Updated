@@ -81,16 +81,15 @@ a {
 
 .link-style a {
     display: inline-block;
-    width: 126px;
     text-align: center;
     color: #8f8f8f;
     font-size: 16px;
-    padding: 17px 0px;
+    padding: 17px 27px;
     text-transform: uppercase;
 }
 
 .link-style a:hover {
-    background-color: rgb(241, 99, 66);
+    background-color: #f16342;
     color: #ffffff;
     transition: 0.5s;
 }
@@ -128,7 +127,7 @@ a {
     background: url(picture/background.jpg)no-repeat;
     background-size: cover;
     min-height: 505px;
-    margin-bottom: 135px;
+    margin-bottom: 125px;
 }
 
 .banner-info {
@@ -166,9 +165,8 @@ a {
     text-align: center;
 }
 
-.set-padding {
-    padding: 0px 25px 0px;
-    font-size: 18px;
+.set-details-fontsize {
+    font-size: 19px;
 }
 
 .adjust-heading {
@@ -218,16 +216,16 @@ a {
 }
 
 .orange-bg {
-    background-color: rgb(241, 99, 66) !important;
+    background-color: #f16342 !important;
 }
 
 .orange-bg:hover {
-    background-color: black !important;
+    background-color: #111111 !important;
 }
 
 /* Featured Projects Section */
 .featured-project-margin {
-    margin-top: 190px;
+    margin-top: 163px;
     margin-bottom: 80px;
 }
 
@@ -244,7 +242,7 @@ a {
 }
 
 .project-style {
-    border-bottom: 1px solid #8f8f8f;
+    border-bottom: 1px solid #ccc;
     display: inline;
     padding-bottom: 11px;
 
@@ -271,7 +269,7 @@ a {
     background-position-y: 6px;
     height: 33px;
     width: 27px;
-    margin-right: 10px;
+    margin: 0 11px -6px 0px;
 
 }
 
@@ -283,33 +281,32 @@ a {
     background-position-y: 10px;
     height: 33px;
     width: 27px;
-    margin-right: 10px;
+    margin: 0 11px -6px 0px;
 
 }
 
 .hover-commercial {
-    border-left: 1px solid #8f8f8f;
+    border-left: 1px solid #ccc;
 }
 
 .hover-residential:hover .residential {
     background-position-x: -28px !important;
-    transition: .5s;
+    /* transition: .5s; */
 }
 
 .hover-commercial:hover .commercial {
     background-position-x: 0px !important;
-    transition: .5s;
+    /* transition: .5s; */
 
 }
 
-.text-green {
-    text-transform: uppercase;
+.text-grey {
+    text-transform: capitalize;
 }
 
-.text-green:hover {
+.text-grey:hover {
     color: #36cecf;
-    transition: .5s;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* four cards */
@@ -335,7 +332,7 @@ a {
     position: absolute;
     text-align: center;
     background-color: #f8f8f8c7;
-    width: 97%;
+    width: calc(100% - 10px);
 }
 
 .card-description h2 {
@@ -346,11 +343,12 @@ a {
 }
 
 .card-description div {
-    margin-top: 14px;
-    margin-bottom: 9px;
+    margin-top: -4px;
+    margin-bottom: 22px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-transform: capitalize;
     font-style: italic;
+    color: #707070;
 }
 
 .card img {
@@ -364,7 +362,7 @@ a {
     width: 20px;
     height: 21px;
     position: absolute;
-    top: 71px;
+    top: 84px;
     left: 24px;
 }
 
@@ -390,7 +388,7 @@ a {
     min-height: 384px;
     position: absolute;
     top: 0;
-    width: 97%;
+    width: calc(100% - 10px);
 }
 
 .explore {
@@ -423,7 +421,6 @@ a {
 
 .about-us-heading {
     text-transform: capitalize;
-
 }
 
 .about-us-left {
@@ -432,16 +429,6 @@ a {
     padding-right: 36px;
 }
 
-.about-us-right {
-    float: left;
-    width: 35%;
-    border-left: 6px solid #dddddd;
-    padding-left: 27px;
-}
-
-.about-us-right h4 {
-    text-transform: capitalize;
-}
 
 .about-us-image {
     float: left;
@@ -450,6 +437,8 @@ a {
 
 .about-us-image img {
     width: 292px;
+    margin-bottom: 17px;
+
 }
 
 .about-us-top-description {
@@ -458,12 +447,13 @@ a {
 }
 
 .top-description-font-size {
-    font-size: 31px;
+    font-size: 29px;
     margin-left: 24px;
 }
 
 .bottom-description {
-    font-size: 17px;
+    word-break: break-all;
+    font-size: 16px;
     display: inline-block;
 }
 
@@ -473,18 +463,33 @@ a {
     font-size: 20px;
     margin-left: 24px;
 }
+.about-us-right {
+    float: left;
+    width: 35%;
+    border-left: 6px solid #dddddd;
+    padding: 0px 0 22px 27px;
+}
+
+.about-us-right h4 {
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+.about-us-right div {
+    font-size: 15px;
+}
 
 .about-us-right span {
     color: #38cdcc;
-    font-size: large;
+    font-size: 16px;
     cursor: pointer;
+    text-transform: capitalize;
 }
 
 .about-us-arrow {
     width: 10px;
     position: relative;
     right: 7%;
-    bottom: -42px;
+    bottom: -23px;
 }
 
 /* footer */
@@ -515,16 +520,14 @@ a {
     font-size: 17px;
 }
 .footer-line {
-    position: relative;
-    bottom: 3px;
     width: 231px;
-    left: -44px;
+
 }
 
 .arrow-sprite {
     position: absolute;
     right: 46px;
-    top: 284px;
+    top: 288px;
 }
 
 .arrow-sprite .left {
@@ -541,9 +544,9 @@ a {
 .arrow-sprite div {
     display: inline-block;
     width: 22px;
-    background-color: antiquewhite;
     height: 22px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 .footer-quicklink {
@@ -554,7 +557,7 @@ a {
 
 .footer-quicklink img {
     position: absolute;
-    right: 97px;
+    right: 93px;
     top: 44px;
 }
 
@@ -625,13 +628,13 @@ a {
 
 .footer-subscribe input {
     padding: 12px 85px 12px 12px;
-    margin-bottom: 9px;
+    margin-bottom: 10px;
     border: none;
 }
 
 .footer-subscribe button {
     background-color: #38cdcc;
-    padding: 8px 10px;
+    padding: 8px 17px;
     border: none;
     color: #ffffff;
     text-transform: uppercase;
@@ -649,7 +652,6 @@ a {
 
 .socials div {
     display: inline-block;
-    background-color: aquamarine;
     width: 32px;
     height: 32px;
 }
@@ -677,7 +679,6 @@ a {
 
 .facebook:hover {
     background-position-x: 0px;
-    transition: 0.5s;
 }
 
 .twitter {
@@ -688,7 +689,6 @@ a {
 
 .twitter:hover {
     background-position-x: 0px;
-    transition: 0.5s;
 }
 
 .linkedin {
@@ -699,7 +699,6 @@ a {
 
 .linkedin:hover {
     background-position-x: 0px;
-    transition: 0.5s;
 }
 
 .email {
@@ -710,7 +709,6 @@ a {
 
 .email:hover {
     background-position-x: 0px;
-    transition: 0.5s;
 }
 
 .edit {
@@ -721,6 +719,5 @@ a {
 
 .edit:hover {
     background-position-x: 0px;
-    transition: 0.5s;
 }
 
