@@ -510,7 +510,10 @@ a {
     padding: 10px 0px;
     color: #FFFFFF;
 }
-
+.word-break{
+    word-break: break-all;
+    font-size: 17px;
+}
 .footer-line {
     position: relative;
     bottom: 3px;
@@ -521,7 +524,7 @@ a {
 .arrow-sprite {
     position: absolute;
     right: 46px;
-    top: 278px;
+    top: 284px;
 }
 
 .arrow-sprite .left {
