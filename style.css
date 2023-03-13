@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 }
 
 /* Top Navbar start */
-.header-background {
+.header-section {
     background-color: #111111;
     height: 108px;
     position: relative;
@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
 }
 
 .header-icon a {
-    display: block;
+    display: inline-block;
     margin: 19px 0 15px 0;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .link-style li {
-    list-style-type: none;
+    list-style: none;
     display: inline-block;
 }
 
@@ -106,7 +106,7 @@ a {
 }
 
 .header-contact li {
-    list-style-type: none;
+    list-style: none;
 }
 
 .header-contact a {
@@ -123,7 +123,7 @@ a {
 }
 
 /* banner start */
-.banner-background {
+.banner-section {
     background: url(picture/background.jpg)no-repeat;
     background-size: cover;
     min-height: 505px;
@@ -189,7 +189,7 @@ a {
 }
 
 .right-navbar li {
-    list-style-type: none;
+    list-style: none;
 }
 
 .right-navbar-top {
@@ -230,27 +230,26 @@ a {
 }
 
 .featured-project-ul {
-    display: inline;
+    display: inline-block;
     margin: 0;
     padding: 0;
 }
 
 .featured-project-ul li {
-    display: inline;
+    display: inline-block;
     padding-left: 26px;
-    list-style-type: none;
+    list-style: none;
 }
 
 .project-style {
     border-bottom: 1px solid #ccc;
-    display: inline;
-    padding-bottom: 11px;
-
+    display: inline-block;
 }
 
 .project-style h3 {
-    display: inline;
+    display: inline-block;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .project-style a {
@@ -258,7 +257,7 @@ a {
     color: #8f8f8f;
     width: 158px;
     text-align: end;
-    padding-bottom: 11px;
+    padding-bottom: 10px;
 }
 
 .residential {
@@ -612,7 +611,7 @@ a {
 }
 
 .footer-contact-details li {
-    list-style-type: none;
+    list-style: none;
 }
 
 .footer-contact-details a {
@@ -659,12 +658,11 @@ a {
 .socials ul {
     padding: 0;
     margin: 0;
-    display: inline;
 }
 
 .socials li {
-    list-style-type: none;
-    display: inline;
+    list-style: none;
+    display: inline-block;
 }
 
 .socials a {
